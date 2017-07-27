@@ -1,7 +1,15 @@
 var color = ["Blue", "Purple", "Black"];
-var choice = ["1st", "2nd", "3rd"];
 
-console.log("My " + choice[0] + " choice is " + color[0] + ".");
-console.log("My " + choice[1] + " choice is " + color[1] + ".");
-console.log("My " + choice[2] + " choice is " + color[2] + ".");
-
+for(var i = 0; i<color.length; i++){
+  var nth;
+  if(i == 0){
+    nth = 'st';
+  }
+  else if(i==1){
+    nth='nd';
+  }
+  else if(i == 2){
+    nth='rd';
+  }
+  console.log('My ' + (i+1) + nth + ' choice is ' + color[i] +'.');
+}
