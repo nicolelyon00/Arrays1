@@ -1,0 +1,7 @@
+var color = ["Blue", "Purple", "Black"];
+var choice = ["1st", "2nd", "3rd"];
+
+console.log("My " + choice[0] + " choice is " + color[0] + ".");
+console.log("My " + choice[1] + " choice is " + color[1] + ".");
+console.log("My " + choice[2] + " choice is " + color[2] + ".");
+
